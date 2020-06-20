@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type"content="text/html; charset=gb2312">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/introduction.css">
+</head>
+<body>
+	<!-- 总体布局的内容区宽度固定，居中 -->
+	<!-- 页眉区header，包含logo和页面位置 -->
+	<div id="header">
+		<div class="header_in">
+			<!-- 网站图标和名称 -->
+			<div id="logo">
+				<img src="./img/logo.png" alt="">
+				<h1>Personal Web</h1>
+			</div>
+			<!-- 当前页面位置 -->
+			<div id="position">
+				<p>当前位置：| 首&emsp;页 |</p>
+			</div>
+		</div>
+	</div>
+	<!-- end of header-->
+
+	<!-- 导航栏menu -->
+	<div id="menu">
+		<!-- 选项内容 -->
+		<ul>
+			<li><a href="index.html">首&emsp;页</a></li>
+			<li><a href="introduction.html">个人简历</a></li>
+			<li><a href="colleage.html">校园活动</a></li>
+			<li><a href="interest.html">业余爱好</a></li>
+			<li style="border-right: none;"><a href="hometown.html">我的家乡</a></li>
+		</ul>
+	</div>
+	<!-- end of menu-->
+    
+    <!-- 主体内容区in_content，包含标题和表格内容 -->
+    <div class="in_content">
+        <div class="wrapper_resume">
+            <!-- 内容标题 -->
+            <p>个人简历表</p>
+            <!-- 表格 -->
+            <table border=1; cellpadding=8; cellspacing=0; align=center>
+                <tr class="title">
+                    <td colspan="5">基本信息</td>
+                </tr>
+                <tr>
+                    <td>姓名</td><td>黄琬净</td>
+                    <td>性别</td><td>女</td>
+                    <!-- 照片 -->
+                    <td rowspan="5"><img src="./img/photo.png"></td>
+                </tr>
+                <tr>
+                    <td>就读院校</td><td>中南财经政法大学</td>
+                    <td>民族</td><td>汉</td>
+                </tr>
+                <tr>
+                    <td>学历</td><td>本科（大三在读）</td>
+                    <td>政治面貌</td><td>共青团员</td>
+                </tr>
+                <tr>
+                    <td>专业</td><td>信息管理与信息系统（金融信息工程方向）</td>
+                    <td>出生年月</td><td>1999年6月</td>
+                </tr>
+                <tr>
+                    <td>籍贯</td><td>海南海口</td>
+                    <td>手机号码</td><td>18062647951</td>
+                </tr>
+                <tr>
+                    <td>通讯地址</td><td colspan="4">湖北省武汉市洪山区武珞路114号中南财经政法大学中区1号楼</td>
+                </tr>
+                <tr>
+                    <td>电子信箱</td><td colspan="4">1078243359@qq.com</td>
+                </tr>
+                <tr class="title">
+                    <td colspan="5">教育背景</td>
+                </tr>
+                <tr>
+                    <td>证书</td>
+                    <td colspan="4">
+                        <ul>
+                            <li>大学英语四级</li>
+                            <li>大学英语六级</li>
+                            <li>普通话水平测试二级甲等</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>其他</td>
+                    <td colspan="4">
+                        <ul>
+                            <li>辅修本校&quot;国际经济与贸易&quot;双学位</li>
+                            <li>荣获2019年度单项奖学金</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="title">主要课程</td>
+                </tr>
+                <tr>
+                    <td>主修课程</td>
+                    <td colspan="4">
+                        管理学、程序设计、数据结构、数据库系统原理、JAVA编程、信息系统分析与设计、运筹与决策、IT项目管理
+                    </td>
+                </tr>
+                <tr>
+                    <td>辅修课程</td>
+                    <td colspan="4">
+                        经济学、国际商法、市场营销、国际金融、国际贸易学、国际贸易实务
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="title">专业技能</td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <!-- 使用无序列表 -->
+                        <ul>
+                            <li>能够使用 C++、JAVA、Python、R 等几种编程语言</li>
+                            <li>掌握 SQL Server、MySQL 数据库管理系统的使用方法</li>
+                            <li>熟练使用 Rational Rose、Visio 等绘图工具</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="title">自我评价</td>
+                </tr>
+                <tr>
+                    <td colspan="5" id="self_ev">
+                        &emsp;本人积极进取、勤奋踏实，对待工作认真负责，一丝不苟；性格开朗，谦逊有礼，乐于助人，善于沟通和合作，团队意识较强。
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- end of in_content -->
+    
+    <!-- 页脚 -->
+	<div id="footer">
+		<div class="footer_wrapper">
+			<!-- 个人信息 -->
+			<div class="footer_cont1">
+				<p style="text-align: left;">
+					联系电话：18062647951<br>
+					电子邮箱：1078243359@qq.com<br>
+					通讯地址：湖北省武汉市洪山区武珞路114号中南财经政法大学
+				</p>
+			</div>
+			<div class="footer_cont2">
+				<p>
+					Copyright© 2020 ZUEL. All Rights Reserved.
+				</p>
+			</div>
+		</div>
+    </div>
+    <!-- end of footer -->
+</body>
+</html>

@@ -1,0 +1,140 @@
+/* 主体内容区 */
+.content {
+    /* background-color: bisque; */
+    background-image: url(../img/bg.jpg);
+    width: 940px;
+    height: auto;
+    margin: auto;
+}
+
+/* part_1 */
+.part_1 {
+    background-color: rgb(255, 254, 248);
+    height: 400px;
+    width: 900px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.part_1 .part_1_text {
+    float: left;
+    width: 550px;
+    margin-left: 20px;
+}
+
+.part_1 .part_1_text h1{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* 内容区配图部分 */
+.part_1_img {
+    height: 380px;
+    width: 220px;
+    float: right;
+    margin-right: 20px;
+}
+
+/* 图片样式 */
+.part_1 img{
+    display: block;
+    width:210px;
+    margin-bottom:12px;
+}
+
+/* 配图文字 */
+.part_1 a{
+    background: #fff;
+    float: right;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color:#333;
+    font-size: 14px;
+    line-height: 10px;
+    box-shadow:0 3px 6px rgba(0,0,0,.25);
+}
+
+.part_1  a:after{
+    content: attr(title);
+}
+
+.part_1 a:hover{
+	-webkit-transform:scale(1.25);
+	-moz-transform:scale(1.25);
+	-ms-transform:scale(1.25);
+	transform:scale(1.25);
+	box-shadow:0 3px 6px rgba(0,0,0,.5);
+	position: relative;
+}
+
+/* part_2 */
+.part_2 {
+    background-color: rgb(255, 254, 248);
+    height: 560px;
+    width: 900px;
+    margin: 30px auto;
+    padding: 20px 0;
+}
+
+.part_2 .part_2_text {
+    float: right;
+    width: 550px;
+    margin-right: 20px;
+}
+
+.part_2 .part_2_text h1{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* 内容区配图部分 */
+.part_2_img {
+    height: 540px;
+    width: 220px;
+    float: left;
+    margin-left: 20px;
+}
+
+/* 图片样式 */
+.part_2 img{
+    display: block;
+    width:210px;
+    margin-bottom:12px;
+}
+
+/* 配图文字 */
+.part_2 a{
+    background: #fff;
+    float: left;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color:#333;
+    font-size: 14px;
+    line-height: 10px;
+    box-shadow:0 3px 6px rgba(0,0,0,.25);
+}
+
+.part_2  a:after{
+    content: attr(title);
+}
+
+.part_2 a:hover{
+	-webkit-transform:scale(1.25);
+	-moz-transform:scale(1.25);
+	-ms-transform:scale(1.25);
+	transform:scale(1.25);
+	box-shadow:0 3px 6px rgba(0,0,0,.5);
+	position: relative;
+}
+
+/* 分割线 */
+.content hr {
+    height: 2px;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0), rgb(52, 103, 180), rgba(0, 0, 0, 0));
+    width: 830px;
+    border-top: 8px dashed #fff;
+}

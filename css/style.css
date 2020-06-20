@@ -1,0 +1,243 @@
+body {
+	margin: 0;
+	font-family: "Microsoft YaHei","STSong",serif;
+	font-size: 14px;
+	background-image: url(../img/background.jpg);
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #221D1D;
+	font-size: 2em;
+}
+
+p, ul {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+a {
+	text-decoration: none;
+	color: #091478;
+}
+
+/* 页眉区 */
+#header {
+	height: 150px;
+	background-image: url(../img/header.jpg);
+	background-size: auto 150px;
+	margin: 0;
+}
+
+.header_in {
+	width: 940px;
+	margin: auto;
+}
+
+/* Logo */
+#logo {
+	width: 500px;
+	float: left;
+}
+
+#logo img {
+	width: 150px;
+	float: left;
+	margin-top: 20px;
+}
+
+#logo h1 {
+	color: #FFFFFF;
+	line-height: 150px;
+	font-size: 36px;
+}
+
+#position {
+	float: right;
+	width: 180px;
+	margin-top: 100px;
+	text-align: right;
+}
+
+#position p {
+	color: rgb(243, 240, 240);
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+/* 导航栏 */
+#menu {
+	width: 940px;
+	padding: 15px 0px;
+	margin: 0px auto;
+	background: #006BC2;
+	border-radius: 10px;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+	border-right: 1px solid #001DD6;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 40px;
+	text-align: center;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	background-color: rgb(55, 139, 179);
+}
+
+/* 页脚区 */
+#footer {
+	height: 120px;
+	margin: 0 auto;
+	padding: 0px 0 15px 0;
+	background-image: url(../img/header.jpg);
+}
+
+#footer p {
+	padding-top: 20px;
+	line-height: 30px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.footer_wrapper {
+	width: 880px;
+	margin: auto;
+}
+
+.footer_cont1 {
+	width: 400px;
+	float: left;
+}
+
+.footer_cont2 {
+	margin-top: 30px;
+	width: 300px;
+	float: right;
+}
+
+/* 主体内容区 */
+.wrapper {
+	width: 940px;
+	margin: auto;
+	background-image: url(../img/bg.jpg);
+}
+
+/* 网站简介模块 */
+#web_inst {
+	overflow: hidden;
+	width: 900px;
+	height: 300px;
+	margin: 0px auto;
+	padding: 30px 0px;
+	background-color: rgb(255, 254, 248);
+}
+
+#web_inst #web_inst_text {
+	float: left;
+	margin-left: 20px;
+	width: 600px;
+}
+
+.inst_title {
+	text-align: center;
+	border-bottom: 1px solid #D0D0D0;
+}
+
+.inst_title i{
+	line-height: 40px;
+}
+
+#web_inst #web_inst_text p {
+	line-height: 30px;
+}
+
+/* 模块配图 */
+#web_inst #web_inst_pic {
+	float: right;
+	width: 250px;
+	margin-top: 20px;
+}
+
+#web_inst .picture {
+	border: 10px solid #FFFFFF;
+	box-shadow:0 3px 6px rgba(0,0,0,.25);
+	width: 200px;
+}
+
+/* 反馈信息收集模块 */
+#contact_info {
+	margin: auto;
+	margin-top: 20px;
+	width: 900px;
+	height: auto;
+	background-color: rgb(255, 254, 248);
+	padding-bottom: 20px;
+}
+
+.contact_title {
+	text-align: center;
+	padding: 20px 0;
+	line-height: 40px;
+	border-bottom: 1px solid #D0D0D0;
+}
+
+/* 表单部分 */
+form {
+	display: table;
+	padding: 10px;
+	margin: auto;
+}
+
+form textarea {
+	width: 500px;
+	height: 100px;
+}
+
+div.quetion {
+	display: table-row;
+}
+
+div.quetion p {
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+div.quetion p:first-child {
+	text-align: left;
+}
+
+.title {
+	width: 100px;
+}
+
+/* 提交按钮 */
+.button {
+	width: 55px;
+	margin: auto;
+	text-align: center;
+}
+
+.submit_btn {
+	border-radius: 5px;
+	padding: 8px 15px;
+	background-color: lightsteelblue;
+	border: 1px solid lightgray;
+}

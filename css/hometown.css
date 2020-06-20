@@ -1,0 +1,95 @@
+/* 主体内容区 */
+.in_content {
+    background-image: url(../img/bg.jpg);
+    width: 940px;
+    margin: auto;
+}
+
+#cont_1 {
+    background-color: rgb(255, 254, 248);
+    width: 900px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+/* 标题部分 */
+.cont_1_title h1 {
+    font-size: 30px;
+    color: rgb(97, 96, 96);
+}
+
+.cont_1_title {
+    width: 800px;
+    height: auto;
+    padding: 20px 0;
+    margin: auto;
+    border-bottom: 1px solid #D0D0D0;
+    text-align: center;
+}
+
+/* 内容部分 */
+.cont_1_wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+.cont_1_in {
+    margin-top: 20px;
+}
+
+/* 内容配图 */
+.cont_img {
+    width: 550px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.cont_img p {
+    text-align: center;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+/* 配图文字 */
+.cont_1_wrapper a {
+    background: #fff;
+    float: left;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Marker Felt", sans-serif;
+    color:#333;
+    font-size: 14px;
+    line-height: 10px;
+    box-shadow:0 3px 6px rgba(0,0,0,.25);
+}
+
+.cont_1_wrapper a:after{
+    content: attr(title);
+}
+
+.cont_1_wrapper a:hover{
+	-webkit-transform:scale(1.25);
+	-moz-transform:scale(1.25);
+	-ms-transform:scale(1.25);
+	transform:scale(1.25);
+	box-shadow:0 3px 6px rgba(0,0,0,.5);
+	position: relative;
+	z-index: 5;
+}
+
+/* 图片样式 */
+.cont_1_wrapper img {
+    display: block;
+    height: 180px;
+    margin-bottom:12px;
+}
+
+/* 文字 */
+.cont_1_wrapper p {
+    font-size: 16px;
+    color: rgb(100, 99, 99);
+}
+
+

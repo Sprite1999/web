@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>首页</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<!-- 总体布局的内容区宽度固定，居中 -->
+	<!-- 页眉区header，包含logo和页面位置 -->
+	<div id="header">
+		<div class="header_in">
+			<!-- 网站图标和名称 -->
+			<div id="logo">
+				<img src="./img/logo.png" alt="">
+				<h1>Personal Web</h1>
+			</div>
+			<!-- 当前页面位置 -->
+			<div id="position">
+				<p>当前位置：| 首&emsp;页 |</p>
+			</div>
+		</div>
+	</div>
+	<!-- end of header-->
+
+	<!-- 导航栏menu -->
+	<div id="menu">
+		<!-- 选项内容 -->
+		<ul>
+			<li><a href="index.html">首&emsp;页</a></li>
+			<li><a href="introduction.html">个人简历</a></li>
+			<li><a href="colleage.html">校园活动</a></li>
+			<li><a href="interest.html">业余爱好</a></li>
+			<li style="border-right: none;"><a href="hometown.html">我的家乡</a></li>
+		</ul>
+	</div>
+	<!-- end of menu-->
+
+	<!-- 主体内容区wrapper -->
+	<div class="wrapper">
+		<!-- 网站简介模块web_inst，包含文字内容和配图 -->
+		<div id="web_inst">
+			<!-- 模块文字内容web_inst_text -->
+			<div id="web_inst_text">
+				<!-- 标题部分inst_title -->
+				<div class="inst_title">
+					<h1>网站简介</h1>
+					<i>Website introduction</i>
+				</div>
+				<br>
+				<p>
+					&emsp;&emsp;本个人网站使用相同的页眉、页脚样式，总体颜色和风格协调统一，内容简洁明了。网站包含了5个页面，在导航栏中可以分别查看。首页主要包含了“反馈信息收集”的表单，用户可以按需填写；个人简历页面包含我的个人简历表，以表格的形式呈现；校园活动页面列举了我在大学时期参加的主要部门和活动；业余爱好页面叙述了我学习钢琴的经历和感受；我的家乡页面描绘了海南的风景美食，表达我对家乡的热爱。
+				</p>
+			</div>
+			<!-- 模块配图web_inst_pic -->
+			<div id="web_inst_pic">
+				<img src="img/picture.jpg" alt="" class="picture">
+			</div>
+		</div>
+		<!-- end of web_inst -->
+
+		<!-- 反馈信息表单模块contact_info，包含标题、表单和按钮 -->
+		<div id="contact_info">
+			<!-- 模块标题contact_title -->
+			<div class="contact_title">
+				<h1>反馈信息收集</h1>
+				<i>Feedback information collection</i>
+			</div>
+			<!-- 信息表单form -->
+			<form method="post">
+				<div class="quetion">
+					<div class="title">
+						<p> 反馈类型: </p>
+					</div>
+					<p>
+						<input type="checkbox" name="beantype" value="whole" checked> 功能建议 <br>
+						<input type="checkbox" name="beantype" value="ground"> 体验意见
+					</p>
+				</div>
+				<p>（请填写您的信息）</p>
+				<!-- 个人信息部分 -->
+				<div class="quetion">
+					<div class="title">
+						<p> 姓   名 : </p>
+					</div>
+					<p> <input type="text" name="name" value="" required> </p>
+				</div>
+				<div class="quetion">
+					<div class="title">
+						<p> 通讯地址 : </p>
+					</div>
+					<p> <input type="text" name="address" value="" required> </p>
+				</div>
+				<div class="quetion">
+					<div class="title">
+						<p> 电子邮箱 : </p>
+					</div>
+					<p> <input type="text" name="email" value="" required> </p>
+				</div>
+				<div class="quetion">
+					<div class="title">
+						<p> 联系电话 : </p>
+					</div>
+					<p> <input type="tel" name="phone" value="" required> </p>
+				</div>
+				<div class="quetion">
+					<div class="title">
+						<p> 反馈内容 : </p>
+					</div>
+					<p>
+						<textarea name="comments" placeholder="请写下您对本网站的建议"></textarea>
+					</p>
+				</div>
+			</form>
+			<!-- end of form -->
+			<!-- 提交按钮button -->
+			<div class="button">
+				<input type="submit" class="submit_btn" value="提 交">
+			</div>
+		</div>
+		<!-- end of contact_info -->
+	</div>
+	
+	<!-- 页脚 -->
+	<div id="footer">
+		<div class="footer_wrapper">
+			<!-- 个人信息 -->
+			<div class="footer_cont1">
+				<p style="text-align: left;">
+					联系电话：18062647951<br>
+					电子邮箱：1078243359@qq.com<br>
+					通讯地址：湖北省武汉市洪山区武珞路114号中南财经政法大学
+				</p>
+			</div>
+			<div class="footer_cont2">
+				<p>
+					Copyright© 2020 ZUEL. All Rights Reserved.
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- end of footer -->
+</body>
+</html>

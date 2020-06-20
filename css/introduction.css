@@ -1,0 +1,63 @@
+/* 主题内容区 */
+.in_content {
+    width: 940px;
+    margin: auto;
+    background-image: url(../img/bg.jpg);
+}
+
+.wrapper_resume {
+    width: 920px;
+    margin: auto;
+    background-color: rgb(255, 254, 248);
+    padding-bottom: 30px;
+}
+
+/* 标题 */
+.wrapper_resume p {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+/* 表格 */
+td {
+    width: 160px;
+    height: 25px;
+	font-size: 14px;
+	text-align: center;
+}
+
+tr {
+	text-align: center;
+}
+
+/* 部分名称 */
+.title {
+    font-weight: bold;
+    background-color: lightsteelblue;
+}
+
+/* 照片 */
+.wrapper_resume img {
+    width: 160px;
+    height: 210px;
+    margin: 0px;
+}
+
+/* 无序列表 */
+ul {
+	margin: 5px;
+}
+li {
+	line-height: 20px;
+	text-align: left;
+}
+
+/* 自我评价内容 */
+#self_ev {
+	text-align: left;
+	line-height: 40px;
+}
+
